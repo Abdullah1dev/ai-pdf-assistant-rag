@@ -6,6 +6,9 @@ import ollama
 st.title("AI PDF Assistant")
 
 
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+    
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
