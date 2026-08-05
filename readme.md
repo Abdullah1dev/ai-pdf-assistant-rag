@@ -25,8 +25,4 @@ git clone https://github.com/Abdullah1dev/ai-pdf-assistant-rag
 pip install -r requirements.txt
 streamlit run app.py
 
-## What I Learned
-- How RAG pipeline works end to end
-- Vector embeddings and similarity search
-- ChromaDB for storing and retrieving embeddings
-- Connecting LLMs with external knowledge
+
